@@ -103,7 +103,7 @@ def save_results(findings):
 
 def main():
     print("XSStrike 3.0 - Ultimate XSS Recon Tool")
-    target_url = input("Enter a HackerOne in-scope URL with parameters: ")
+    target_url = input("Enter a URL with parameters: ")
     print(f"Starting XSS testing on {target_url}...")
 
     params = extract_params(target_url)

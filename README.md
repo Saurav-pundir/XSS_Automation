@@ -2,10 +2,10 @@
 
 ## 🔥 Automated XSS Testing Tool (Python)
 
-**XSS_Automation** is a Python-based security testing tool that automates the process of testing for **Cross-Site Scripting (XSS)** vulnerabilities. It runs **2,690 payloads** against target input fields to identify possible XSS weaknesses.
+**XSS_Automation** is a Python-based security testing tool that automates the process of testing for **Cross-Site Scripting (XSS)** vulnerabilities. It runs **6,613 payloads** against target input fields to identify possible XSS weaknesses.
 
 ## 🚀 Features
-- Tests **all 2,690 XSS payloads** from a predefined list.
+- Tests **all 6,613 XSS payloads** from a predefined list.
 - Automates **injection testing** on web forms and URLs.
 - Supports **GET & POST requests** for flexible testing.
 - Customizable **headers & parameters** for advanced configurations.
@@ -35,7 +35,7 @@ python xss_automation.py -u "http://example.com/search.php?q=" -p payloads.txt -
 | Argument | Description |
 |----------|------------|
 | `-u` | Target URL (with parameter placeholder) |
-| `-p` | Payload file containing 2,690 XSS strings |
+| `-p` | Payload file containing 6,613 XSS strings |
 | `-m` | HTTP method (GET or POST) |
 | `-h` | Custom headers (optional) |
 
